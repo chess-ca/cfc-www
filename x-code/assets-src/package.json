@@ -1,0 +1,38 @@
+{
+  "name": "cfc-www",
+  "version": "1.0.0",
+  "description": "CFC / www.chess.ca website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup:watch-dev": "rollup -c rollup.config.mjs --environment BUILD:dev --watch",
+    "rollup:build-dev": "rollup -c rollup.config.mjs --environment BUILD:dev",
+    "rollup:build-prod": "rollup -c rollup.config.mjs --environment BUILD:prod"
+  },
+  "author": "Don Parakin",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bulma": "*",
+    "htmx.org": "*",
+    "alpinejs": "*",
+    "anchor-js": "*",
+    "@imacrayon/alpine-ajax": "*",
+    "@alpinejs/morph": "*",
+    "lit": "*",
+    "@lit/task": "*",
+    "@lit/localize": "*",
+    "@lit/localize-tools": "*",
+    "@rollup/plugin-alias": "*",
+    "@rollup/plugin-node-resolve": "*",
+    "rollup": "*",
+    "rollup-plugin-delete": "*",
+    "rollup-plugin-sass": "*",
+    "rollup-plugin-sizes": "*",
+    "rollup-plugin-svelte": "*",
+    "svelte": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chess-ca/cfc-www.git"
+  }
+}
