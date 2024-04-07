@@ -1,17 +1,37 @@
 [hugoVersion]
     extended = true
 
-mounts = [
-    {target="content", source="content"},
-    {target="content", source="../../content"},
-    {target="assets", source="assets"},
-    {target="assets", source="../../assets"},
-    {target="static", source="static"},
-    {target="data", source="data"},
-    {target="i18n", source="i18n"},
-    {target="archetypes", source="archetypes"},
-    {target="layouts", source="layouts"},
-]
+# ---- Mounts with both "editor-safe" and "developer" directories
+[[mounts]]
+source = 'content'
+target = 'content'
+[[mounts]]
+source = '../../content'
+target = 'content'
+[[mounts]]
+source = 'assets'
+target = 'assets'
+[[mounts]]
+source = '../../assets'
+target = 'assets'
+
+# ---- Mounts with "developer" directories only
+[[mounts]]
+source = 'static'
+target = 'static'
+[[mounts]]
+source = 'data'
+target = 'data'
+[[mounts]]
+source = 'i18n'
+target = 'i18n'
+[[mounts]]
+source = 'archetypes'
+target = 'archetypes'
+[[mounts]]
+source = 'layouts'
+target = 'layouts'
+
 
 # ----------------------------------------------------------------------
 # Notes:
