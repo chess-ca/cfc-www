@@ -1,0 +1,10 @@
+
+main = [
+    {identifier="home", name="d'accueil", url="/fr/", weight=10},
+    {identifier="players", name="joueurs", url="/fr/players/", weight=20},
+    {identifier="organizers", name="organisateurs", url="/fr/organizers/", weight=30},
+    {identifier="elite", name="élite", url="/fr/elite/", weight=40},
+    {identifier="cfc", name="FCE", url="/fr/cfc/", weight=80},
+    {identifier="news", name="nouvelles", url="/fr/news/", weight=90},
+    {identifier="join", name="REJOINDRE", url="/fr/players/membership-join/", weight=99},
+]

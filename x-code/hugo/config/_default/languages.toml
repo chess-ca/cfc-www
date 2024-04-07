@@ -1,0 +1,21 @@
+[en]
+    languageName = "English"
+    title = "CFC"
+    weight = 1
+    [en.params]
+        cfc = "CFC"
+        cfc_long = "Chess Federation of Canada"
+        cfc_fce = "CFC / FCE"
+        other_lang = "fr"
+        other_language = "Français"
+
+[fr]
+    languageName = "Français"
+    title = "FCE"
+    weight = 2
+    [fr.params]
+        cfc = "FCE"
+        cfc_long = "Fédération Canadienne des Échecs"
+        cfc_fce = "FCE / CFC"
+        other_lang = "en"
+        other_language = "English"

@@ -1,0 +1,8 @@
+name = "cfc-2024"
+description = "CFC chess.ca Theme, Style Version 2024"
+license = "None"
+min_version = "0.124"
+
+[author]
+    name = 'Don Parakin'
+    homepage = 'https://www.weaddvalue.ca/'

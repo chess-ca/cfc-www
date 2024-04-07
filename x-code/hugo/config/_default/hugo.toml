@@ -1,0 +1,38 @@
+#-----------------------------------------------------------------------
+# Site:  www.chess.ca
+#-----------------------------------------------------------------------
+baseURL = 'https://www.chess.ca/'
+title = 'chess.ca'
+
+theme = "cfc-2024"
+#---- See config/_default/module.toml for more settings
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableMissingTranslationPlaceholders = false
+
+enableGitInfo = true
+enableRobotsTXT = true
+summaryLength = 70
+timeZone = "America/Toronto"
+
+[frontmatter]
+    date = [":filename", ":default"]
+
+[permalinks]
+    news = "/news/:year/:month/:day/:slug"
+    website = "/ws/:filename"
+
+[taxonomies]
+    tag = "tags"
+
+[markup]
+    [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
+
+    [markup.goldmark.parser.attribute]
+    block = true
+    [markup.goldmark.renderer]
+    unsafe= true

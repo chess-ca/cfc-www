@@ -1,0 +1,15 @@
+
+isProd = false
+gravatar = {email="info@chess.ca"}
+social = [
+    {icon="twitter", url="http://twitter.com/ChessCanada", weight=20},
+    {icon="facebook", url="https://www.facebook.com/pages/Chess-Federation-of-Canada/163031117086480", weight=40},
+    {icon="youtube", url="http://www.youtube.com/ChessCanada", weight=60}
+]
+
+#-----------------------------------------------------------------------
+# External URLs:  Check these to see if they are still valid.
+#-----------------------------------------------------------------------
+# FIDE Arbiters: Site, Manual
+URL_fide_arbiters_site =  'https://arbiters.fide.com/'
+URL_FIDE_arbiters_manual = 'https://arbiters.fide.com/news/category/arb/publications/arb-manual'
